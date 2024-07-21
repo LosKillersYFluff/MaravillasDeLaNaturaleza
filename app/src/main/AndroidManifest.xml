@@ -19,6 +19,9 @@
             android:name=".AlbumActivity"
             android:exported="false" />
         <activity
+            android:name=".CreditosActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
