@@ -16,6 +16,9 @@
             android:name=".Minijuego1Activity"
             android:exported="false" />
         <activity
+            android:name=".PerfilActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
