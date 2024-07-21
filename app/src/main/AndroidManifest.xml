@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Maravillas"
         tools:targetApi="31">
         <activity
-            android:name=".Minijuego1Activity"
+            android:name=".PerfilActivity"
             android:exported="false" />
         <activity
-            android:name=".PerfilActivity"
+            android:name=".Minijuego1Activity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
