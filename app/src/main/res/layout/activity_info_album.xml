@@ -61,7 +61,7 @@
                 android:textColor="@android:color/white"
                 android:gravity="center"
                 android:textAlignment="center"
-                android:textStyle="bold"
+                android:fontFamily="@font/stay_pixel"
                 android:layout_marginTop="5dp"
                 android:layout_centerHorizontal="true" />
 
@@ -71,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="Informacion del animal"
                 android:textSize="20sp"
+                android:fontFamily="@font/Pixellari"
                 android:textColor="@android:color/white"
                 android:layout_marginTop="50dp"
                 android:layout_centerHorizontal="true"
