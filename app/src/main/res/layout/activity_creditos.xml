@@ -9,7 +9,7 @@
         android:id="@+id/regresar"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/flechaRegresar"
+        android:src="@drawable/flecharegresar"
         android:background="@android:color/transparent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -20,7 +20,7 @@
         android:id="@+id/contenedor_titulo"
         android:layout_width="250dp"
         android:layout_height="100dp"
-        android:background="@drawable/tituloMadera"
+        android:background="@drawable/titulomadera"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:gravity="center">
@@ -47,7 +47,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_centerInParent="true"
-        android:background="@drawable/fondoMadera"
+        android:background="@drawable/fondomadera"
         android:scaleX="1.95"
         android:scaleY="1.75">
 
@@ -103,7 +103,7 @@
                 android:orientation="vertical"
                 android:layout_below="@id/texto_creditos1"
                 android:layout_alignParentEnd="true"
-                android:layout_marginRight="20"
+                android:layout_marginRight="20dp"
                 android:layout_marginTop="5dp">
 
                 <TextView

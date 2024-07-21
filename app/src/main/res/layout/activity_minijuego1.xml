@@ -34,7 +34,7 @@
         android:layout_toEndOf="@id/home"
         android:layout_marginStart="16dp"
         android:layout_marginTop="25dp"
-        android:fontFamily="@font/pixellari"
+        android:fontFamily="@font/Pixellari"
         android:text="Puntaje:"
         android:textColor="@android:color/white"
         android:textSize="24sp"
@@ -50,7 +50,7 @@
         android:layout_toEndOf="@id/puntaje_label"
         android:layout_marginStart="8dp"
         android:layout_alignTop="@id/puntaje_label"
-        android:fontFamily="@font/pixellari"
+        android:fontFamily="@font/Pixellari"
         android:text="0"
         android:textColor="@android:color/white"
         android:textSize="24sp"
@@ -79,7 +79,7 @@
         android:id="@+id/btnregistrarse"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="550"
+        android:layout_marginStart="550dp"
         android:layout_marginTop="27dp">
 
         <ImageButton
@@ -87,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="36dp"
             android:background="@android:color/transparent"
-            android:src="@drawable/fondoMadera"
+            android:src="@drawable/fondomadera"
             android:scaleType="fitCenter" />
 
         <TextView
