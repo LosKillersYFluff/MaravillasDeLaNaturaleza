@@ -183,7 +183,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
                 android:background="@android:color/transparent"
-                android:src="@drawable/fondoMadera"
+                android:src="@drawable/fondomadera"
                 android:contentDescription="@string/registrarse"
                 android:scaleType="fitCenter" />
 
@@ -222,7 +222,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
                 android:background="@android:color/transparent"
-                android:src="@drawable/fondoMadera"
+                android:src="@drawable/fondomadera"
                 android:contentDescription="@string/iniciar_sesion"
                 android:scaleType="fitCenter" />
 
