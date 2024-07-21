@@ -48,7 +48,7 @@
         android:layout_height="280dp"
         android:layout_below="@+id/contenedor_titulo"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/fondo_transperente"
+        android:background="@drawable/fondo_transparente"
         android:padding="20dp">
 
         <LinearLayout

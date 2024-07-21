@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo"
+    tools:context=".Minijuego1Activity">
+
+    <RelativeLayout
+        android:id="@+id/contenedor_album"
+        android:layout_marginTop="80dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fondo_transparente1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/stay_pixel"
+            android:shadowColor="@color/colorBorde"
+            android:shadowDx="1.5"
+            android:shadowDy="1.5"
+            android:shadowRadius="1.5"
+            android:text="Titulo de Pregunta"
+            android:textColor="@android:color/white"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/puntaje_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/home"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/pixellari"
+        android:text="Puntaje:"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:shadowColor="@color/colorBorde"
+        android:shadowDx="1.5"
+        android:shadowDy="1.5"
+        android:shadowRadius="1.5" />
+
+    <TextView
+        android:id="@+id/puntaje_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/puntaje_label"
+        android:layout_marginStart="8dp"
+        android:layout_alignTop="@id/puntaje_label"
+        android:fontFamily="@font/pixellari"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:shadowColor="@color/colorBorde"
+        android:shadowDx="1.5"
+        android:shadowDy="1.5"
+        android:shadowRadius="1.5" />
+    <ImageView
+        android:id="@+id/corazones"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginStart="72dp"
+        android:src="@drawable/corazones1" />
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/inicio"
+        android:background="@android:color/transparent"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:id="@+id/btnregistrarse"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="550"
+        android:layout_marginTop="27dp">
+
+        <ImageButton
+            android:id="@+id/registrarse"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/fondoMadera"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/stay_pixel"
+            android:text="Reproducir Audio"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/options_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contenedor_album"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/option1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondo_transparente"
+            android:layout_margin="10dp" />
+
+        <View
+            android:id="@+id/option2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondo_transparente"
+            android:layout_margin="10dp" />
+
+        <View
+            android:id="@+id/option3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondo_transparente"
+            android:layout_margin="10dp" />
+
+        <View
+            android:id="@+id/option4"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondo_transparente"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>

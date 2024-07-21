@@ -47,7 +47,7 @@
         android:layout_height="240dp"
         android:layout_alignParentBottom="true"
         android:layout_margin="16dp"
-        android:background="@drawable/fondo_transperente"
+        android:background="@drawable/fondo_transparente"
         android:orientation="vertical"
         android:padding="16dp">
 
