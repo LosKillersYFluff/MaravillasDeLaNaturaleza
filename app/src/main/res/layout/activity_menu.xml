@@ -6,28 +6,6 @@
     android:background="@drawable/fondo"
     tools:context=".MenuActivity">
 
-    <ImageButton
-        android:id="@+id/salir"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/cerrarSesion"
-        android:scaleType="centerInside"
-        android:onClick="cerrarsesion"/>
-
-    <ImageButton
-        android:id="@+id/perfil"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_toStartOf="@id/salir"
-        android:background="@drawable/perfil"
-        android:scaleType="centerInside"
-        android:onClick="verPerfil" />
-
     <RelativeLayout
         android:id="@+id/contenedor_titulo"
         android:layout_width="550dp"
@@ -198,7 +176,6 @@
                 android:shadowRadius="1.5" />
         </RelativeLayout>
     </LinearLayout>
-
     <ImageView
         android:id="@+id/imgSonido"
         android:layout_width="50dp"
@@ -209,5 +186,26 @@
         android:background="@drawable/sonido"
         android:onClick="toggleSonido"
         android:scaleType="centerInside"/>
+    <ImageButton
+        android:id="@+id/salir"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/cerrarSesion"
+        android:scaleType="centerInside"
+        android:onClick="cerrarsesion"/>
+
+    <ImageButton
+        android:id="@+id/perfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toStartOf="@id/salir"
+        android:background="@drawable/perfil"
+        android:scaleType="centerInside"
+        android:onClick="verPerfil" />
 
 </RelativeLayout>
