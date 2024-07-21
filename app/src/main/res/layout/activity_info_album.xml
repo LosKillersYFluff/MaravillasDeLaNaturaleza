@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".InfoAlbumActivity">
+
+    <ImageButton
+        android:id="@+id/regresar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/flecharegresar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:onClick="onRegresarClicked"/>
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@drawable/inicio"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:onClick="onHomeClicked"/>
+
+    <RelativeLayout
+        android:id="@+id/contenedor_info"
+        android:layout_width="620dp"
+        android:layout_height="230dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/fondo_transperente"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="300dp"
+            android:layout_height="175dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:background="#aa7959"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del animal"
+                android:textSize="30sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informacion del animal"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAlignment="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/top1"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="4dp"
+            android:background="#aa7959"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/contenedor_especie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="60dp">
+
+                <TextView
+                    android:id="@+id/especie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Especie:"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="1dp" />
+
+                <TextView
+                    android:id="@+id/info_especie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Esta es la especie"
+                    android:layout_marginStart="144dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contenedor_peso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/peso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peso:"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="1dp" />
+
+                <TextView
+                    android:id="@+id/info_peso"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Este es el peso"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contenedor_habitat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="1dp">
+
+                <TextView
+                    android:id="@+id/habitat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Habitat:"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="1em" />
+
+                <TextView
+                    android:id="@+id/info_habitat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Esta es el habitat"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/top2"
+            android:layout_width="38dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="4dp"
+
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder_image"
+                android:contentDescription="@string/imagen"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
