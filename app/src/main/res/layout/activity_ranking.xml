@@ -40,28 +40,26 @@
             android:fontFamily="@font/stay_pixel"
             android:layout_centerInParent="true" />
     </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/contenedor_album"
+        android:layout_width="500dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/contenedor_titulo"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fondo_transperente"
+        android:padding="20dp">
 
-
-
-    <LinearLayout
-        android:id="@+id/top"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-            style="@style/RankingItem">
-            <TextView android:id="@+id/num1" style="@font/pixellari" android:text="#1" />
-            <TextView android:id="@+id/txt1" style="@font/stay_pixel" android:text="Juan" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/top2"
-            style="@style/RankingItem">
-            <TextView android:id="@+id/num2" style="@font/pixellari" android:text="#2" />
-            <TextView android:id="@+id/txt2" style="@font/stay_pixel" android:text="Maria" />
-            <TextView android:id="@+id/score2" style="@font/pixellari" android:text="888888" />
-        </LinearLayout>
-
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp"/>
 
     </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
