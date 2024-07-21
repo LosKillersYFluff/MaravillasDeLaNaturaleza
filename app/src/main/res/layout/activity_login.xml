@@ -168,7 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:fontFamily="@font/stay_pixel"
-                android:text="Registrarse"
+                android:text="Iniciar Sesión"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" /> <!-- Tamaño reducido -->
 
@@ -207,9 +207,9 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:fontFamily="@font/stay_pixel"
-                android:text="Iniciar Sesión"
+                android:text="Registrarse"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" /> <!-- Tamaño reducido -->
+                android:textSize="16sp" />
 
         </RelativeLayout>
 
