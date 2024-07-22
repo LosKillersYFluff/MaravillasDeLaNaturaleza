@@ -8,10 +8,10 @@
 
     <RelativeLayout
         android:id="@+id/contenedor_titulo"
-        android:layout_width="550dp"
-        android:layout_height="350dp"
+        android:layout_width="440dp"
+        android:layout_height="305dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/titulo_madera"
         android:gravity="center">
 
