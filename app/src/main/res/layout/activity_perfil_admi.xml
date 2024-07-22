@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/fondo"
-    tools:context=".MenuActivity">
+    tools:context=".PerfilAdmiActivity">
 
     <RelativeLayout
         android:id="@+id/contenedor_titulo"
@@ -33,7 +33,7 @@
 
     <LinearLayout
         android:id="@+id/contenedor_botones"
-        android:layout_width="wrap_content"
+        android:layout_width="900dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:orientation="horizontal"
@@ -44,7 +44,8 @@
         <RelativeLayout
             android:layout_width="120dp"
             android:layout_height="40dp"
-            android:layout_marginEnd="8dp">
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="100dp">
 
             <ImageButton
                 android:layout_width="match_parent"
@@ -52,12 +53,12 @@
                 android:src="@drawable/fondomadera"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
-                android:onClick="abrirTutorial" />
+                android:onClick="abrirUsuarios" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tutorial"
+                android:text="Usuarios"
                 android:textSize="16sp"
                 android:textColor="@android:color/white"
                 android:fontFamily="@font/stay_pixel"
@@ -71,7 +72,8 @@
         <RelativeLayout
             android:layout_width="120dp"
             android:layout_height="40dp"
-            android:layout_marginEnd="8dp">
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="260dp">
 
             <ImageButton
                 android:layout_width="match_parent"
@@ -79,93 +81,12 @@
                 android:src="@drawable/fondomadera"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
-                android:onClick="abrirAlbum" />
+                android:onClick="verComentarios" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Álbum"
-                android:textSize="16sp"
-                android:textColor="@android:color/white"
-                android:fontFamily="@font/stay_pixel"
-                android:layout_centerInParent="true"
-                android:shadowColor="@color/colorBorde"
-                android:shadowDx="1.5"
-                android:shadowDy="1.5"
-                android:shadowRadius="1.5" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="140dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="8dp">
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/fondomadera"
-                android:scaleType="fitCenter"
-                android:background="@android:color/transparent"
-                android:onClick="jugarMinijuego" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Jugar"
-                android:textSize="16sp"
-                android:textColor="@android:color/white"
-                android:fontFamily="@font/stay_pixel"
-                android:layout_centerInParent="true"
-                android:shadowColor="@color/colorBorde"
-                android:shadowDx="1.5"
-                android:shadowDy="1.5"
-                android:shadowRadius="1.5" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="120dp"
-            android:layout_height="40dp"
-            android:layout_marginEnd="8dp">
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/fondomadera"
-                android:scaleType="fitCenter"
-                android:background="@android:color/transparent"
-                android:onClick="verRanking" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ranking"
-                android:textSize="16sp"
-                android:textColor="@android:color/white"
-                android:fontFamily="@font/stay_pixel"
-                android:layout_centerInParent="true"
-                android:shadowColor="@color/colorBorde"
-                android:shadowDx="1.5"
-                android:shadowDy="1.5"
-                android:shadowRadius="1.5" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="120dp"
-            android:layout_height="40dp"
-            android:layout_marginEnd="8dp">
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/fondomadera"
-                android:scaleType="fitCenter"
-                android:background="@android:color/transparent"
-                android:onClick="verCreditos" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Créditos"
+                android:text="Comentarios"
                 android:textSize="16sp"
                 android:textColor="@android:color/white"
                 android:fontFamily="@font/stay_pixel"

@@ -31,7 +31,7 @@
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ranking"
+            android:text="Usuarios"
             android:shadowColor="@color/colorBorde"
             android:textSize="45sp"
             android:textColor="@android:color/white"
@@ -41,7 +41,7 @@
             android:layout_centerInParent="true" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@+id/contenedor_ranking"
+        android:id="@+id/contenedor_usuarios"
         android:layout_width="500dp"
         android:layout_height="280dp"
         android:layout_below="@+id/contenedor_titulo"

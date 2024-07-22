@@ -10,30 +10,20 @@
         android:id="@+id/text_view_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:fontFamily="@font/Pixellari"
-        android:text="#"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="400dp"
+        android:text="correo"
         android:textSize="16sp"
+        android:fontFamily="@font/Pixellari"
         android:textColor="@android:color/white"/>
 
     <TextView
         android:id="@+id/text_view_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/text_view_1"
-        android:layout_marginStart="25dp"
-        android:text="Juan"
-        android:textSize="16sp"
-        android:fontFamily="@font/Pixellari"
-        android:textColor="@android:color/white"/>
-
-    <TextView
-        android:id="@+id/text_view_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="30dp"
-        android:text="9999999"
+        android:layout_marginStart="300dp"
+        android:layout_marginEnd="15dp"
+        android:text="comentario"
         android:textSize="16sp"
         android:fontFamily="@font/Pixellari"
         android:textColor="@android:color/white"/>
