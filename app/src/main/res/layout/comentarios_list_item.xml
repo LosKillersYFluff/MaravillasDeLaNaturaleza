@@ -13,18 +13,17 @@
         android:layout_marginStart="15dp"
         android:text="correo"
         android:textSize="16sp"
-        android:fontFamily="@font/pixellari"
+        android:fontFamily="@font/Pixellari"
         android:textColor="@android:color/white"/>
 
     <TextView
         android:id="@+id/text_view_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="300dp"
+        android:layout_marginStart="300dp"
         android:text="comentario"
         android:textSize="16sp"
-        android:fontFamily="@font/pixellari"
+        android:fontFamily="@font/Pixellari"
         android:textColor="@android:color/white"/>
 
 </RelativeLayout>
