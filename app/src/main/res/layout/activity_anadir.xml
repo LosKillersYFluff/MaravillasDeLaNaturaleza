@@ -2,8 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/fondo">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo"
+    tools:context=".AnadirActivity">
 
     <ImageButton
         android:id="@+id/regresar"
@@ -21,7 +22,7 @@
     <RelativeLayout
         android:id="@+id/contenedor_titulo"
         android:layout_width="300dp"
-        android:layout_height="105dp"
+        android:layout_height="85dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dp"
         android:background="@drawable/titulomadera"
@@ -31,7 +32,7 @@
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Usuarios"
+            android:text="Añadir"
             android:shadowColor="@color/colorBorde"
             android:textSize="45sp"
             android:textColor="@android:color/white"
@@ -40,24 +41,202 @@
             android:fontFamily="@font/stay_pixel"
             android:layout_centerInParent="true" />
     </RelativeLayout>
-    <RelativeLayout
-        android:id="@+id/contenedor_usuarios"
-        android:layout_width="500dp"
-        android:layout_height="280dp"
-        android:layout_below="@+id/contenedor_titulo"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/fondo_transparente"
-        android:padding="20dp">
 
-        <ListView
-            android:id="@+id/list_view"
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/contenedor_anadir"
+        android:layout_width="500dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/fondo_transparente"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/Pixellari"
+            android:text="Animal:"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/nombre"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:divider="@android:color/transparent"
-            android:dividerHeight="10dp"/>
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/campo_color"
+            android:fontFamily="@font/Pixellari"
+            android:hint="Ingrese el animal"
+            android:inputType="text"
+            android:padding="4dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/campo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre"
+            android:layout_marginTop="2dp"
+            android:text="Campo vacio"
+            android:textColor="@android:color/holo_red_light"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/caracteristica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/campo1"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/Pixellari"
+            android:text="Caracteristica 1:"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/caracterist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracteristica"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/campo_color"
+            android:fontFamily="@font/Pixellari"
+            android:hint="Ingrese la caracteristica del animal"
+            android:inputType="text"
+            android:padding="4dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/campo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracterist"
+            android:layout_marginTop="2dp"
+            android:text="Campo vacio"
+            android:textColor="@android:color/holo_red_light"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/caracteristica2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/campo2"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/Pixellari"
+            android:text="Caracteristica 2:"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/caracterist2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracteristica2"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/campo_color"
+            android:fontFamily="@font/Pixellari"
+            android:hint="Ingrese la caracteristica del animal:"
+            android:inputType="text"
+            android:padding="4dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/campo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracterist2"
+            android:layout_marginTop="2dp"
+            android:text="Campo vacio"
+            android:textColor="@android:color/holo_red_light"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/caracteristica3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/campo3"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/Pixellari"
+            android:text="Caracteristica 3:"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/caracterist3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracteristica3"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/campo_color"
+            android:fontFamily="@font/Pixellari"
+            android:hint="Ingrese la caracteristica del animal:"
+            android:inputType="text"
+            android:padding="4dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/campo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracterist3"
+            android:layout_marginTop="2dp"
+            android:text="Campo vacio"
+            android:textColor="@android:color/holo_red_light"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/caracteristica4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/campo4"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/Pixellari"
+            android:text="Caracteristica 4:"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/caracterist4"
+            android:layout_width="460dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracteristica4"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/campo_color"
+            android:fontFamily="@font/Pixellari"
+            android:hint="Ingrese la caracteristica del animal:"
+            android:inputType="text"
+            android:padding="4dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/campo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracterist4"
+            android:layout_marginTop="2dp"
+            android:text="Campo vacio"
+            android:textColor="@android:color/holo_red_light"
+            android:visibility="gone" />
 
     </RelativeLayout>
-
+    </HorizontalScrollView>
 
 
 
