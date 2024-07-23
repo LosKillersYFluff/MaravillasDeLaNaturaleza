@@ -48,7 +48,7 @@
         android:layout_height="319dp"
         android:layout_below="@id/contenedor_titulo"
         android:layout_marginStart="195dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginBottom="15dp"
         android:fillViewport="true">
 
         <RelativeLayout
