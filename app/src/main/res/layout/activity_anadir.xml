@@ -40,6 +40,7 @@
             android:textAlignment="center"
             android:fontFamily="@font/stay_pixel"
             android:layout_centerInParent="true" />
+
     </RelativeLayout>
 
     <ScrollView
@@ -76,6 +77,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/name"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
@@ -112,6 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/caracteristica"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
@@ -148,6 +151,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/caracteristica2"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
@@ -184,6 +188,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/caracteristica3"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
