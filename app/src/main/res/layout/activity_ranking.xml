@@ -15,8 +15,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="0dp"
         android:scaleType="centerCrop"
-        android:onClick="onRegresarClicked"
-        />
+        android:onClick="onRegresarClicked" />
 
     <RelativeLayout
         android:id="@+id/contenedor_titulo"
@@ -40,6 +39,7 @@
             android:fontFamily="@font/stay_pixel"
             android:layout_centerInParent="true" />
     </RelativeLayout>
+
     <RelativeLayout
         android:id="@+id/contenedor_ranking"
         android:layout_width="500dp"
@@ -49,17 +49,21 @@
         android:background="@drawable/fondo_transparente"
         android:padding="20dp">
 
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"/>
+
         <ListView
             android:id="@+id/list_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_below="@id/spinner"
             android:divider="@android:color/transparent"
             android:dividerHeight="10dp"/>
 
     </RelativeLayout>
-
-
-
-
 
 </RelativeLayout>
