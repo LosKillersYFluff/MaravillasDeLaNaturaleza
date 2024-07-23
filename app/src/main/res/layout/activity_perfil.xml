@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:text="Escribe tu comentario aquí"
                 android:textSize="20sp"
-                android:fontFamily="@font/Pixellari"
+                android:fontFamily="@font/pixellari"
                 android:textColor="@android:color/white"
                 android:layout_marginTop="65dp"
                 android:layout_centerHorizontal="true"
@@ -107,7 +107,7 @@
                 android:textSize="18sp"
                 android:layout_marginTop="5dp"
                 android:textColor="@android:color/white"
-                android:fontFamily="@font/Pixellari"/>
+                android:fontFamily="@font/pixellari"/>
 
             <TextView
                 android:id="@+id/info_especie"
@@ -118,7 +118,7 @@
                 android:text="Usuario"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
-                android:fontFamily="@font/Pixellari" />
+                android:fontFamily="@font/pixellari" />
 
 
             <TextView
@@ -128,7 +128,7 @@
                 android:text="Correo:"
                 android:textSize="18sp"
                 android:textColor="@android:color/white"
-                android:fontFamily="@font/Pixellari"
+                android:fontFamily="@font/pixellari"
                 android:layout_marginTop="40dp"
                 android:layout_marginStart="2dp"/>
 
@@ -141,7 +141,7 @@
                 android:text="Este es el correo"
                 android:textSize="18sp"
                 android:textColor="@android:color/white"
-                android:fontFamily="@font/Pixellari" />
+                android:fontFamily="@font/pixellari" />
 
         </RelativeLayout>
     </RelativeLayout>
@@ -152,7 +152,7 @@
         android:layout_height="100dp"
         android:layout_alignParentStart="true"
         android:layout_marginTop="140dp"
-        android:layout_marginStart="185dp"
+        android:layout_marginStart="270dp"
         android:padding="10dp"
         android:orientation="vertical">
 
@@ -175,7 +175,7 @@
     <RelativeLayout
         android:layout_width="100dp"
         android:layout_height="20dp"
-        android:layout_marginStart="136dp"
+        android:layout_marginStart="216dp"
         android:layout_marginTop="290dp"
         android:layout_marginEnd="0dp">
 

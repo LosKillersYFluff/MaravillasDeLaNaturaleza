@@ -42,17 +42,6 @@
             android:layout_centerInParent="true" />
     </RelativeLayout>
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="false"
-        android:layout_marginTop="150dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginEnd="20dp"
-        android:entries="@array/options_array"/>
-
-
     <ScrollView
         android:layout_width="450dp"
         android:layout_height="329dp"
@@ -303,5 +292,15 @@
 
         </RelativeLayout>
     </ScrollView>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="20dp"
+        android:entries="@array/options_array"/>
 
 </RelativeLayout>
