@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="Informacion del animal"
                 android:textSize="20sp"
-                android:fontFamily="@font/Pixellari"
+                android:fontFamily="@font/pixellari"
                 android:textColor="@android:color/white"
                 android:layout_marginTop="50dp"
                 android:layout_centerHorizontal="true"
@@ -97,7 +97,7 @@
                     android:text="Especie:"
                     android:textSize="18sp"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/Pixellari"/>
+                    android:fontFamily="@font/pixellari"/>
 
                 <TextView
                     android:id="@+id/info_especie"
@@ -108,7 +108,7 @@
                     android:text="Esta es la especie"
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
-                    android:fontFamily="@font/Pixellari" />
+                    android:fontFamily="@font/pixellari" />
 
 
                 <TextView
@@ -118,7 +118,7 @@
                     android:text="Peso:"
                     android:textSize="18sp"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/Pixellari"
+                    android:fontFamily="@font/pixellari"
                     android:layout_marginTop="28dp"
                     android:layout_marginStart="2dp"/>
 
@@ -131,7 +131,7 @@
                     android:text="Este es el peso"
                     android:textSize="18sp"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/Pixellari" />
+                    android:fontFamily="@font/pixellari" />
 
                 <TextView
                     android:id="@+id/habitat"
@@ -140,7 +140,7 @@
                     android:text="Habitat:"
                     android:textSize="18sp"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/Pixellari"
+                    android:fontFamily="@font/pixellari"
                     android:layout_marginTop="55dp"
                     android:layout_marginStart="1dp"/>
 
@@ -153,7 +153,7 @@
                     android:text="Esta es el habitat"
                     android:textSize="18sp"
                     android:textColor="@android:color/white"
-                    android:fontFamily="@font/Pixellari" />
+                    android:fontFamily="@font/pixellari" />
 
     </RelativeLayout>
         </RelativeLayout>
@@ -162,9 +162,9 @@
             android:id="@+id/top2"
             android:layout_width="145dp"
             android:layout_height="75dp"
-            android:layout_alignParentStart="true"
+            android:layout_alignParentStart="false"
             android:layout_marginTop="110dp"
-            android:layout_marginStart="130dp"
+            android:layout_marginStart="210dp"
             android:padding="10dp"
             android:orientation="vertical">
 
