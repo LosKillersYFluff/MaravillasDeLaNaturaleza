@@ -42,11 +42,22 @@
             android:layout_centerInParent="true" />
     </RelativeLayout>
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="20dp"
+        android:entries="@array/options_array"/>
+
+
     <ScrollView
         android:layout_width="450dp"
         android:layout_height="329dp"
         android:layout_below="@id/contenedor_titulo"
-        android:layout_marginStart="350dp"
+        android:layout_marginStart="300dp"
         android:layout_marginBottom="15dp"
         android:fillViewport="true">
 
@@ -116,7 +127,6 @@
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
-                android:hint="Ingrese la caracteristica del animal"
                 android:inputType="text"
                 android:padding="4dp"
                 android:textColor="@android:color/black" />
@@ -153,7 +163,6 @@
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
-                android:hint="Ingrese la caracteristica del animal"
                 android:inputType="text"
                 android:padding="4dp"
                 android:textColor="@android:color/black" />
@@ -190,7 +199,6 @@
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
-                android:hint="Ingrese la caracteristica del animal"
                 android:inputType="text"
                 android:padding="4dp"
                 android:textColor="@android:color/black" />
@@ -227,7 +235,6 @@
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
-                android:hint="Ingrese la caracteristica del animal"
                 android:inputType="text"
                 android:padding="4dp"
                 android:textColor="@android:color/black" />
@@ -264,7 +271,6 @@
                 android:layout_marginTop="4dp"
                 android:background="@drawable/campo_color"
                 android:fontFamily="@font/pixellari"
-                android:hint="Añadir URL"
                 android:inputType="textUri"
                 android:padding="4dp"
                 android:textColor="@android:color/black" />
@@ -297,9 +303,5 @@
 
         </RelativeLayout>
     </ScrollView>
-
-
-
-
 
 </RelativeLayout>
