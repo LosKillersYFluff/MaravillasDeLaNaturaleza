@@ -94,7 +94,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
             android:background="@drawable/campo_color"
-            android:fontFamily="@font/Pixellari"
+            android:fontFamily="@font/pixellari"
             android:hint="Ingrese su correo electrónico"
             android:inputType="textEmailAddress"
             android:padding="4dp"
@@ -130,7 +130,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="0dp"
             android:background="@drawable/campo_color"
-            android:fontFamily="@font/Pixellari"
+            android:fontFamily="@font/pixellari"
             android:hint="Ingrese su contraseña"
             android:inputType="textPassword"
             android:padding="4dp"
@@ -160,7 +160,6 @@
                 android:layout_height="36dp"
                 android:background="@android:color/transparent"
                 android:src="@drawable/fondomadera"
-                android:contentDescription="@string/registrarse"
                 android:scaleType="fitCenter" />
 
             <TextView
@@ -199,7 +198,6 @@
                 android:layout_height="36dp"
                 android:background="@android:color/transparent"
                 android:src="@drawable/fondomadera"
-                android:contentDescription="@string/iniciar_sesion"
                 android:scaleType="fitCenter" />
 
             <TextView
