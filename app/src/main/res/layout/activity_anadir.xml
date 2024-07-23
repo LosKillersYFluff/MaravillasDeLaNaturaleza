@@ -64,7 +64,7 @@
             android:fontFamily="@font/Pixellari"
             android:text="Animal:"
             android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textSize="16dp" />
 
         <EditText
             android:id="@+id/nombre"
