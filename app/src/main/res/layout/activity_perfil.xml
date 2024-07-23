@@ -169,16 +169,15 @@
         android:id="@+id/botones_editar_eliminar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/top1"
         android:layout_marginTop="50dp"
         android:orientation="horizontal">
 
     <RelativeLayout
         android:layout_width="100dp"
         android:layout_height="20dp"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="339dp"
-        android:layout_marginEnd="30dp">
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="0dp">
 
         <ImageButton
             android:id="@+id/boton_editar"
@@ -204,8 +203,8 @@
     <RelativeLayout
         android:layout_width="100dp"
         android:layout_height="20dp"
-        android:layout_marginStart="230dp"
-        android:layout_marginTop="339dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="290dp"
         android:layout_marginEnd="30dp">
 
         <ImageButton
@@ -229,5 +228,6 @@
             android:textColor="@android:color/white"
             android:textSize="18sp" />
     </RelativeLayout>
+    </LinearLayout>
 
 </RelativeLayout>
