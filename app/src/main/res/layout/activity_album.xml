@@ -63,6 +63,7 @@
                 android:layout_width="120dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginEnd="30dp">
 
                 <ImageButton
@@ -155,6 +156,7 @@
                 android:layout_width="120dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
                 android:fontFamily="@font/stay_pixel"
                 android:textColor="@color/white"
                 android:text="Info Va Aquí"
@@ -174,6 +176,7 @@
                 android:layout_width="120dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginEnd="30dp">
 
                 <ImageButton
