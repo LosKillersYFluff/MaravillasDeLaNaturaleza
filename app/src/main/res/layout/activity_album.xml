@@ -52,132 +52,18 @@
         android:padding="20dp">
 
         <LinearLayout
-            android:id="@+id/botones_ecosistemas"
+            android:id="@+id/boton_fauna"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
             <RelativeLayout
                 android:layout_width="120dp"
                 android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="30dp">
-
-                <ImageButton
-                    android:id="@+id/boton_bosque"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@android:color/transparent"
-                    android:src="@drawable/fondomadera"
-                    android:scaleType="fitCenter"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:fontFamily="@font/stay_pixel"
-                    android:shadowColor="@color/colorBorde"
-                    android:shadowDx="1.5"
-                    android:shadowDy="1.5"
-                    android:shadowRadius="1.5"
-                    android:text="Bosque"
-                    android:textColor="@android:color/white"
-                    android:textSize="28sp" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="120dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="30dp">
-
-                <ImageButton
-                    android:id="@+id/boton_tundra"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@android:color/transparent"
-                    android:src="@drawable/fondomadera"
-                    android:scaleType="fitCenter"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:fontFamily="@font/stay_pixel"
-                    android:shadowColor="@color/colorBorde"
-                    android:shadowDx="1.5"
-                    android:shadowDy="1.5"
-                    android:shadowRadius="1.5"
-                    android:text="Tundra"
-                    android:textColor="@android:color/white"
-                    android:textSize="28sp" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="120dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="8dp">
-
-                <ImageButton
-                    android:id="@+id/boton_mont"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@android:color/transparent"
-                    android:src="@drawable/fondomadera"
-                    android:scaleType="fitCenter"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:fontFamily="@font/stay_pixel"
-                    android:shadowColor="@color/colorBorde"
-                    android:shadowDx="1.5"
-                    android:shadowDy="1.5"
-                    android:shadowRadius="1.5"
-                    android:text="Montaña"
-                    android:textColor="@android:color/white"
-                    android:textSize="28sp" />
-            </RelativeLayout>
-
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/texto_ecosistemas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/botones_ecosistemas"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="120dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="20dp"
-                android:fontFamily="@font/stay_pixel"
-                android:textColor="@color/white"
-                android:text="Info Va Aquí"
-                android:textSize="16sp"
-                android:layout_marginEnd="30dp">
-            </TextView>
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/botones_flora_fauna"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/texto_ecosistemas"
-            android:layout_marginTop="50dp"
-            android:orientation="horizontal">
-
-            <RelativeLayout
-                android:layout_width="120dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="30dp">
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="170dp">
 
                 <ImageButton
                     android:id="@+id/boton_fauna"
@@ -197,33 +83,6 @@
                     android:shadowDy="1.5"
                     android:shadowRadius="1.5"
                     android:text="Fauna"
-                    android:textColor="@android:color/white"
-                    android:textSize="28sp" />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="120dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="30dp">
-
-                <ImageButton
-                    android:id="@+id/boton_flora"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@android:color/transparent"
-                    android:src="@drawable/fondomadera"
-                    android:scaleType="fitCenter"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:fontFamily="@font/stay_pixel"
-                    android:shadowColor="@color/colorBorde"
-                    android:shadowDx="1.5"
-                    android:shadowDy="1.5"
-                    android:shadowRadius="1.5"
-                    android:text="Flora"
                     android:textColor="@android:color/white"
                     android:textSize="28sp" />
             </RelativeLayout>
