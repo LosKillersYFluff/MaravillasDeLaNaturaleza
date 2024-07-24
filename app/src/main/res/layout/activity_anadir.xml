@@ -16,8 +16,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="0dp"
         android:scaleType="centerCrop"
-        android:onClick="onRegresarClicked"
-        />
+        android:onClick="onRegresarClicked"/>
 
     <RelativeLayout
         android:id="@+id/contenedor_titulo"

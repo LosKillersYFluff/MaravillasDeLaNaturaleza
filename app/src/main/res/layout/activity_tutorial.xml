@@ -57,7 +57,7 @@
             android:layout_marginEnd="30dp">
 
             <ImageButton
-                android:id="@+id/boton_escoger"
+                android:id="@+id/boton_reconocer"
                 android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:background="@android:color/transparent"
@@ -74,7 +74,7 @@
                 android:shadowDy="1.5"
                 android:shadowRadius="1.5"
                 android:layout_centerHorizontal="true"
-                android:text="Escoger la mejor respuesta"
+                android:text="Reconoce el animal"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
         </RelativeLayout>
@@ -88,7 +88,7 @@
             android:layout_marginEnd="30dp">
 
             <ImageButton
-                android:id="@+id/boton_rompecabezas"
+                android:id="@+id/boton_frase"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:background="@android:color/transparent"
@@ -104,7 +104,7 @@
                 android:shadowDx="1.5"
                 android:shadowDy="1.5"
                 android:shadowRadius="1.5"
-                android:text="Rompecabezas"
+                android:text="Completa la frase"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
         </RelativeLayout>
@@ -141,7 +141,7 @@
                     android:id="@+id/titulo_info_tab1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Usa w,a,s,d para moverte"
+                    android:text="Usa clic izquierdo para seleccionar"
                     android:textSize="24sp"
                     android:fontFamily="@font/stay_pixel"
                     android:textColor="@android:color/white"
