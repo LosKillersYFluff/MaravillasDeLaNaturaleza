@@ -271,10 +271,158 @@
                 android:padding="4dp"
                 android:textColor="@android:color/black" />
 
+            <TextView
+                android:id="@+id/caracteristicaMinijuego"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgEdit"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/pixellari"
+                android:text="Caracteristica Minijuegos:"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/caracteristMini"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caracteristicaMinijuego"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/campo_color"
+                android:fontFamily="@font/pixellari"
+                android:hint="Ingrese la caracteristica del animal para el minijuego"
+                android:inputType="text"
+                android:padding="4dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/campo6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caracteristMini"
+                android:layout_marginTop="2dp"
+                android:text="Campo vacio"
+                android:textColor="@android:color/holo_red_light"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/caracteristicaMinijuego2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/campo6"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/pixellari"
+                android:text="Caracteristica 2 Minijuegos:"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/caracteristMini2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caracteristicaMinijuego2"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/campo_color"
+                android:fontFamily="@font/pixellari"
+                android:hint="Ingrese la caracteristica del animal para el minijuego"
+                android:inputType="text"
+                android:padding="4dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/campo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caracteristMini2"
+                android:layout_marginTop="2dp"
+                android:text="Campo vacio"
+                android:textColor="@android:color/holo_red_light"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/caracteristicaMinijuego3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/campo7"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/pixellari"
+                android:text="Caracteristica 3 Minijuegos:"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/caracteristMini3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caracteristicaMinijuego3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/campo_color"
+                android:fontFamily="@font/pixellari"
+                android:hint="Ingrese la caracteristica del animal para el minijuego"
+                android:inputType="text"
+                android:padding="4dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/campo8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caracteristMini3"
+                android:layout_marginTop="2dp"
+                android:text="Campo vacio"
+                android:textColor="@android:color/holo_red_light"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/caracteristicaMinijuego4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/campo8"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/pixellari"
+                android:text="Caracteristica 4 Minijuegos:"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/caracteristMini4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caracteristicaMinijuego4"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/campo_color"
+                android:fontFamily="@font/pixellari"
+                android:hint="Ingrese la caracteristica del animal para el minijuego"
+                android:inputType="text"
+                android:padding="4dp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/campo9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/caracteristMini4"
+                android:layout_marginTop="2dp"
+                android:text="Campo vacio"
+                android:textColor="@android:color/holo_red_light"
+                android:visibility="gone" />
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imgEdit"
+                android:layout_below="@+id/campo9"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="6dp">
 
